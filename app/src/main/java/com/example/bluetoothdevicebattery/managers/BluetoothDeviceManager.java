@@ -1,20 +1,19 @@
-package com.example.bluetoothdevicebattery.Managers;
+package com.example.bluetoothdevicebattery.managers;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothHeadset;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.util.Log;
 
 import com.example.bluetoothdevicebattery.Constants;
-import com.example.bluetoothdevicebattery.Listeners.BluetoothBroadcastListener;
-import com.example.bluetoothdevicebattery.Listeners.BluetoothDeviceListener;
-import com.example.bluetoothdevicebattery.Listeners.BluetoothServiceListener;
-import com.example.bluetoothdevicebattery.Mappers.DeviceModelMapper;
-import com.example.bluetoothdevicebattery.Models.DeviceModel;
+import com.example.bluetoothdevicebattery.listeners.BluetoothBroadcastListener;
+import com.example.bluetoothdevicebattery.listeners.BluetoothDeviceListener;
+import com.example.bluetoothdevicebattery.listeners.BluetoothServiceListener;
+import com.example.bluetoothdevicebattery.mappers.DeviceModelMapper;
+import com.example.bluetoothdevicebattery.models.DeviceModel;
 
 import java.util.ArrayList;
 import java.util.List;

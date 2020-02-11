@@ -1,4 +1,4 @@
-package com.example.bluetoothdevicebattery.Fragments;
+package com.example.bluetoothdevicebattery.fragments;
 
 import android.bluetooth.BluetoothAdapter;
 import android.os.Bundle;
@@ -13,13 +13,13 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.bluetoothdevicebattery.Adapters.DevicesViewModelAdapter;
-import com.example.bluetoothdevicebattery.Listeners.BluetoothDeviceListener;
-import com.example.bluetoothdevicebattery.Mappers.DeviceViewModelMapper;
-import com.example.bluetoothdevicebattery.Models.DeviceModel;
+import com.example.bluetoothdevicebattery.adapters.DevicesViewModelAdapter;
+import com.example.bluetoothdevicebattery.listeners.BluetoothDeviceListener;
+import com.example.bluetoothdevicebattery.mappers.DeviceViewModelMapper;
+import com.example.bluetoothdevicebattery.models.DeviceModel;
 import com.example.bluetoothdevicebattery.R;
-import com.example.bluetoothdevicebattery.Managers.BluetoothDeviceManager;
-import com.example.bluetoothdevicebattery.ViewModels.DeviceViewModel;
+import com.example.bluetoothdevicebattery.managers.BluetoothDeviceManager;
+import com.example.bluetoothdevicebattery.viewmodels.DeviceViewModel;
 
 import java.util.ArrayList;
 import java.util.List;

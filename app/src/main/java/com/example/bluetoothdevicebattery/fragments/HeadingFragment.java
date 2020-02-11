@@ -1,6 +1,5 @@
-package com.example.bluetoothdevicebattery.Fragments;
+package com.example.bluetoothdevicebattery.fragments;
 
-import android.graphics.drawable.Icon;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.bluetoothdevicebattery.Managers.NotificationManager;
-import com.example.bluetoothdevicebattery.Models.NotificationModel;
+import com.example.bluetoothdevicebattery.managers.NotificationManager;
+import com.example.bluetoothdevicebattery.models.NotificationModel;
 import com.example.bluetoothdevicebattery.R;
 
 public class HeadingFragment extends Fragment {

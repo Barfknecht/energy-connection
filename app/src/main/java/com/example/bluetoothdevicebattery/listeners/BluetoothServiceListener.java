@@ -1,11 +1,10 @@
-package com.example.bluetoothdevicebattery.Listeners;
+package com.example.bluetoothdevicebattery.listeners;
 
-import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothProfile;
 
-import com.example.bluetoothdevicebattery.Mappers.DeviceModelMapper;
-import com.example.bluetoothdevicebattery.Models.DeviceModel;
+import com.example.bluetoothdevicebattery.mappers.DeviceModelMapper;
+import com.example.bluetoothdevicebattery.models.DeviceModel;
 
 import java.util.List;
 

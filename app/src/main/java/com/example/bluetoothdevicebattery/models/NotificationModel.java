@@ -1,4 +1,4 @@
-package com.example.bluetoothdevicebattery.Models;
+package com.example.bluetoothdevicebattery.models;
 
 import android.graphics.drawable.Icon;
 

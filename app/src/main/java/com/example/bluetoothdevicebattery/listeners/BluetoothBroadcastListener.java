@@ -1,4 +1,4 @@
-package com.example.bluetoothdevicebattery.Listeners;
+package com.example.bluetoothdevicebattery.listeners;
 
 import android.bluetooth.BluetoothDevice;
 import android.content.BroadcastReceiver;
@@ -11,7 +11,6 @@ public class BluetoothBroadcastListener extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
-        BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
 
         if (BluetoothDevice.ACTION_FOUND.equals(action)) {
             switch (action) {

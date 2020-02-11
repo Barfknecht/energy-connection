@@ -1,4 +1,4 @@
-package com.example.bluetoothdevicebattery.Adapters;
+package com.example.bluetoothdevicebattery.adapters;
 
 import android.bluetooth.BluetoothAdapter;
 import android.graphics.Color;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.bluetoothdevicebattery.R;
-import com.example.bluetoothdevicebattery.ViewModels.DeviceViewModel;
+import com.example.bluetoothdevicebattery.viewmodels.DeviceViewModel;
 
 import java.util.List;
 

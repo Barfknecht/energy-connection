@@ -1,4 +1,4 @@
-package com.example.bluetoothdevicebattery.Utils;
+package com.example.bluetoothdevicebattery.utils;
 
 /*
  * Copyright (C) 2017 Google Inc. All Rights Reserved.
@@ -24,7 +24,7 @@ import android.os.Build;
 import androidx.core.app.NotificationCompat;
 
 import com.example.bluetoothdevicebattery.Constants;
-import com.example.bluetoothdevicebattery.Models.NotificationModel;
+import com.example.bluetoothdevicebattery.models.NotificationModel;
 
 /**
  * Simplifies common {@link Notification} tasks.

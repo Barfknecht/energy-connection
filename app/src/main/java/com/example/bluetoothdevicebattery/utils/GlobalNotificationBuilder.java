@@ -1,4 +1,4 @@
-package com.example.bluetoothdevicebattery.Utils;
+package com.example.bluetoothdevicebattery.utils;
 
 import androidx.core.app.NotificationCompat;
 

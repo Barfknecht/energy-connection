@@ -1,6 +1,6 @@
-package com.example.bluetoothdevicebattery.Listeners;
+package com.example.bluetoothdevicebattery.listeners;
 
-import com.example.bluetoothdevicebattery.Models.DeviceModel;
+import com.example.bluetoothdevicebattery.models.DeviceModel;
 
 import java.util.List;
 

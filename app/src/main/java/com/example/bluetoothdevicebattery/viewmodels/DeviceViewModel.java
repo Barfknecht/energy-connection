@@ -1,4 +1,4 @@
-package com.example.bluetoothdevicebattery.ViewModels;
+package com.example.bluetoothdevicebattery.viewmodels;
 
 public class DeviceViewModel {
 

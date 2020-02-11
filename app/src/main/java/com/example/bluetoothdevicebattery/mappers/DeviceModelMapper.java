@@ -1,8 +1,8 @@
-package com.example.bluetoothdevicebattery.Mappers;
+package com.example.bluetoothdevicebattery.mappers;
 
 import android.bluetooth.BluetoothDevice;
 
-import com.example.bluetoothdevicebattery.Models.DeviceModel;
+import com.example.bluetoothdevicebattery.models.DeviceModel;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,4 @@
-package com.example.bluetoothdevicebattery.Models;
-
-import androidx.annotation.Nullable;
+package com.example.bluetoothdevicebattery.models;
 
 public class DeviceModel {
 

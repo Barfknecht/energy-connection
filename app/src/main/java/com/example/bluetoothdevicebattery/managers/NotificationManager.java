@@ -1,4 +1,4 @@
-package com.example.bluetoothdevicebattery.Managers;
+package com.example.bluetoothdevicebattery.managers;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -11,11 +11,11 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
-import com.example.bluetoothdevicebattery.Activities.MainActivity;
-import com.example.bluetoothdevicebattery.Models.NotificationModel;
+import com.example.bluetoothdevicebattery.activities.MainActivity;
+import com.example.bluetoothdevicebattery.models.NotificationModel;
 import com.example.bluetoothdevicebattery.R;
-import com.example.bluetoothdevicebattery.Utils.GlobalNotificationBuilder;
-import com.example.bluetoothdevicebattery.Utils.NotificationUtil;
+import com.example.bluetoothdevicebattery.utils.GlobalNotificationBuilder;
+import com.example.bluetoothdevicebattery.utils.NotificationUtil;
 
 public class NotificationManager {
 

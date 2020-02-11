@@ -1,7 +1,7 @@
-package com.example.bluetoothdevicebattery.Mappers;
+package com.example.bluetoothdevicebattery.mappers;
 
-import com.example.bluetoothdevicebattery.Models.DeviceModel;
-import com.example.bluetoothdevicebattery.ViewModels.DeviceViewModel;
+import com.example.bluetoothdevicebattery.models.DeviceModel;
+import com.example.bluetoothdevicebattery.viewmodels.DeviceViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
