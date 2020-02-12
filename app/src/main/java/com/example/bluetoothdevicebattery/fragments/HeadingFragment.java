@@ -20,7 +20,7 @@ public class HeadingFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View headingFragment = inflater.inflate(R.layout.heading_fragment, container, false);
+        View headingFragment = inflater.inflate(R.layout.fragment_heading, container, false);
         final NotificationManager notificationManager = new NotificationManager(getActivity());
         final NotificationModel notificationModel = new NotificationModel("Title", "Content", 100);
         Switch enableNotification = headingFragment.findViewById(R.id.enable_notification);

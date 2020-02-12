@@ -49,12 +49,12 @@ public class DevicesViewModelAdapter extends RecyclerView.Adapter<DevicesViewMod
         }
 
         public void bindDevice(DeviceViewModel deviceViewModel){
-            TextView deviceName = deviceView.findViewById(R.id.deviceName);
-            deviceName.setText(deviceViewModel.deviceName);
+            TextView deviceHeader = deviceView.findViewById(R.id.device_header);
+            deviceHeader.setText(deviceViewModel.deviceName);
             if (deviceViewModel.connectionState == BluetoothAdapter.STATE_CONNECTED)
-                deviceName.setTextColor(Color.GREEN);
+                deviceHeader.setTextColor(Color.GREEN);
             else
-                deviceName.setTextColor(Color.RED);
+                deviceHeader.setTextColor(Color.RED);
         }
     }
 

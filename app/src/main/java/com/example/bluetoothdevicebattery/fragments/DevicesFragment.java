@@ -47,7 +47,7 @@ public class DevicesFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        final View devicesFragment = inflater.inflate(R.layout.devices_fragment, container, false);
+        final View devicesFragment = inflater.inflate(R.layout.fragment_devices_list, container, false);
         RecyclerView recyclerView = devicesFragment.findViewById(R.id.bluetooth_devices);
         customiseRecyclerView(recyclerView);
 
