@@ -74,6 +74,14 @@ public class BluetoothDeviceManager {
         filter.addAction(Constants.EXTRA_BATTERY_LEVEL);
         context.registerReceiver(broadcastListener, filter);
     }
+
+    final BluetoothDeviceListener.IBluetoothDeviceListener listener = new BluetoothDeviceListener.IBluetoothDeviceListener() {
+        @Override
+        public void updateConnectedDevices(List<DeviceModel> connectedBluetoothDevices) {
+            determineConsolidatedDeviceViewModels(connectedBluetoothDevices);
+            devicesViewModelAdapter.notifyDataSetChanged();
+        }
+    };
 }
 
 

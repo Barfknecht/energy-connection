@@ -50,10 +50,6 @@ public class DevicesFragment extends Fragment {
         final View devicesFragment = inflater.inflate(R.layout.fragment_devices_list, container, false);
         RecyclerView recyclerView = devicesFragment.findViewById(R.id.bluetooth_devices);
         customiseRecyclerView(recyclerView);
-
-        pairedDeviceModels = bluetoothDeviceManager.determinePairedDevices();
-        bluetoothDeviceManager.determineConnectedDevices();
-
         return devicesFragment;
     }
 
@@ -72,13 +68,7 @@ public class DevicesFragment extends Fragment {
         bluetoothDeviceManager.determineConnectedDevices();
     }
 
-    final BluetoothDeviceListener.IBluetoothDeviceListener listener = new BluetoothDeviceListener.IBluetoothDeviceListener() {
-        @Override
-        public void updateConnectedDevices(List<DeviceModel> connectedBluetoothDevices) {
-            determineConsolidatedDeviceViewModels(connectedBluetoothDevices);
-            devicesViewModelAdapter.notifyDataSetChanged();
-        }
-    };
+
 
     private void determineConsolidatedDeviceViewModels(List<DeviceModel> connectedBluetoothDevices) {
 

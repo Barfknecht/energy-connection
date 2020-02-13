@@ -19,7 +19,6 @@ public class BluetoothServiceListener implements BluetoothProfile.ServiceListene
     @Override
     public void onServiceConnected(int profile, BluetoothProfile proxy) {
         List<BluetoothDevice> bluetoothDevices = proxy.getConnectedDevices();
-
         List<DeviceModel> deviceModels = DeviceModelMapper.mapDeviceModels(bluetoothDevices);
         bluetoothDeviceListener.updateConnectedDevices(deviceModels);
     }
